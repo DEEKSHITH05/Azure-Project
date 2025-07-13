@@ -12,9 +12,9 @@
 
 spark.conf.set("fs.azure.account.auth.type.advwstoragedatalake.dfs.core.windows.net", "OAuth")
 spark.conf.set("fs.azure.account.oauth.provider.type.advwstoragedatalake.dfs.core.windows.net", "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider")
-spark.conf.set("fs.azure.account.oauth2.client.id.advwstoragedatalake.dfs.core.windows.net", "748b4dff-058f-4bdc-9f1c-2bb0b0fdc618")
-spark.conf.set("fs.azure.account.oauth2.client.secret.advwstoragedatalake.dfs.core.windows.net","T-08Q~qfwfWvFocQMwQmmICYKowh5qksp45bUbe_")
-spark.conf.set("fs.azure.account.oauth2.client.endpoint.advwstoragedatalake.dfs.core.windows.net", "https://login.microsoftonline.com/68a8c9a5-324a-4760-8a90-b12ffa50209c/oauth2/token")
+spark.conf.set("fs.azure.account.oauth2.client.id.advwstoragedatalake.dfs.core.windows.net", "")
+spark.conf.set("fs.azure.account.oauth2.client.secret.advwstoragedatalake.dfs.core.windows.net","")
+spark.conf.set("fs.azure.account.oauth2.client.endpoint.advwstoragedatalake.dfs.core.windows.net", "")
 
 # COMMAND ----------
 
